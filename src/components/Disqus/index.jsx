@@ -25,9 +25,10 @@ class Disqus extends Component {
         this.setState({ toasts });
     }
 
-    notifyAboutComment(comment) {
+    notifyAboutComment() {
         const toasts = this.state.toasts.slice();
-        toasts.push({ text: `New comment available: ${comment.text.slice(0, 10)}` });
+        toasts.push({ text: "New comment available!" });
+        // toasts.push({ text: `New comment available: ${comment.text.slice(0, 10)}` });
         this.setState({ toasts });
     }
 
