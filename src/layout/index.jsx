@@ -7,17 +7,17 @@ import "./index.scss";
 import "./global.scss";
 
 export default class MainLayout extends React.Component {
-  render() {
-    const { children } = this.props;
-    return (
-      <Navigation config={config} LocalTitle={this.props.title}>
-        <div>
-          <Helmet>
-            <meta name="description" content={config.siteDescription} />
-          </Helmet>
-          {children}
-        </div>
-      </Navigation>
-    );
-  }
+    render() {
+        const { children } = this.props;
+        return (
+            <Navigation config={config} LocalTitle={this.props.title}>
+                <div>
+                    <Helmet>
+                        <meta name="description" content={config.siteDescription} />
+                    </Helmet>
+                    {children}
+                </div>
+            </Navigation>
+        );
+    }
 }
