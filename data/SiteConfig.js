@@ -3,7 +3,7 @@ module.exports = {
     siteTitleShort: "GM Starter",                                       // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
     siteTitleAlt: "GatsbyJS Material Starter",                          // Alternative site title for SEO.
     siteLogo: "/logos/logo-1024.png",                                   // Logo used for SEO and manifest.
-    siteUrl: "confident-davinci-d948cc.netlify.com",            // Domain of your website without pathPrefix.
+    siteUrl: "https://confident-davinci-d948cc.netlify.com",            // Domain of your website without pathPrefix.
     pathPrefix: "/",                                                    // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
     fixedFooter: false,                                                 // Whether the footer component is fixed, i.e. always visible
     siteDescription: "A GatsbyJS stater with Material design in mind.", // Website description used for RSS feeds/meta description tag.
@@ -18,7 +18,7 @@ module.exports = {
     userName: "Mike @ Titan Global Tech",                               // Username to display in the author segment.
     userTwitter: "",                                                    // Optionally renders "Follow Me" in the UserInfo segment.
     userLocation: "Portland, Oregon",                                   // User location to display in the author segment.
-    userAvatar: "https://api.adorable.io/avatars/150/test.png",         // User avatar to display in the author segment.
+    userAvatar: "https://mfiles.alphacoders.com/582/582724.jpg",        // User avatar to display in the author segment.
     userDescription:
         "Mike is a Full Stack Software Developer that specializes in " +
         "React web application development.",                           // User description to display in the author segment.
