@@ -1,15 +1,15 @@
-backend:
-  name: github
-  branch: master # Branch to update
-  repo: b1tn3r/gatsby-full-stack-cms # Repo for pushing new commits. For netlify cms
-
 #backend:
-#  name: git-gateway
-#  accept_roles: #optional - accepts all users if left out
-#    - admin
-#    - editor
-#  branch: master
-#  repo: b1tn3r/gatsby-full-stack-cms
+#  name: github
+#  branch: master # Branch to update
+#  repo: b1tn3r/gatsby-full-stack-cms # Repo for pushing new commits. For netlify cms
+
+backend:
+  name: git-gateway
+  accept_roles: #optional - accepts all users if left out
+    - admin
+    - editor
+  branch: master
+  repo: b1tn3r/gatsby-full-stack-cms
 
 media_folder: static/assets
 public_folder: assets
