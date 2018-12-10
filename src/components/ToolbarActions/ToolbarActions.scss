@@ -10,4 +10,16 @@
             display: none;
         }
     }
+
+    // Translate Dropdown
+    #google_translate_element {
+        vertical-align: middle;
+        margin: 22px 0 20px 10px;
+    }
+}
+
+// Tell active translate bar to go to bottom of screen
+.goog-te-banner-frame.skipTranslate {
+    top: auto !important;
+    bottom: 0;
 }
